@@ -1,19 +1,27 @@
 class Continents {
-    public static void main(String earth[]) {
+   // static String cont1 = "Asia";
+   // static String cont2 = "Africa";
+   // static String cont3 = "North America";
+   // static String cont4 = "South America";
+   // static String cont5 = "Antarctica";
+   // static String cont6 = "Europe";
+   // static String cont7 = "Australia";
+   // static String continent[] = { cont1, cont2, cont3, cont4, cont5, cont6, cont7 };
 
-        String continent[] = { "Asia", "Africa", "North America", "South America",
-		"Antarctica", "Europe", "Australia" };
+   public static void main(String earth[]) {
 
-        System.out.println(continent[0]);
-        System.out.println(continent[1]);
-        System.out.println(continent[2]);
-        System.out.println(continent[3]);
-        System.out.println(continent[4]);
-        System.out.println(continent[5]);
-        System.out.println(continent[6]);
+      String cont1 = "Asia";
+      String cont2 = "Africa";
+      String cont3 = "North America";
+      String cont4 = "South America";
+      String cont5 = "Antarctica";
+      String cont6 = "Europe";
+      String cont7 = "Australia";
+      String continent[] = { cont1, cont2, cont3, cont4, cont5, cont6, cont7 };
 
-        for (String cont : continent) {
-            System.out.println(cont);
-        }
-    }
+      for (String cont : continent) {
+         System.out.println(cont);
+      }
+
+   }
 }

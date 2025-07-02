@@ -1,85 +1,119 @@
 class SuperMarket {
-    public static void main(String market[]) {
+   // static String ice1 = "Vanilla";
+   // static String ice2 = "Chocolate";
+   // static String ice3 = "Strawberry";
+   // static String ice4 = "Mango";
+   // static String ice5 = "Butterscotch";
+   // static String ice6 = "Black Currant";
+   // static String ice7 = "Pista";
+   // static String ice8 = "Kulfi";
+   // static String ice9 = "Choco Chips";
+   // static String ice10 = "Blueberry";
+   // static String iceCreams[] = { ice1, ice2, ice3, ice4, ice5, ice6, ice7, ice8, ice9, ice10 };
 
-        String iceCreams[] = {
-            "Vanilla", "Chocolate", "Strawberry", "Mango", "Butterscotch",
-            "Black Currant", "Pista", "Kulfi", "Choco Chips", "Blueberry"
-        };
+   // static String perfume1 = "Axe";
+   // static String perfume2 = "Fogg";
+   // static String perfume3 = "Park Avenue";
+   // static String perfume4 = "Wild Stone";
+   // static String perfume5 = "Denver";
+   // static String perfume6 = "Skinn";
+   // static String perfume7 = "Engage";
+   // static String perfume8 = "Layer'r Shot";
+   // static String perfume9 = "Bella Vita";
+   // static String perfume10 = "Beardo";
+   // static String perfumes[] = { perfume1, perfume2, perfume3, perfume4, perfume5, perfume6, perfume7, perfume8, perfume9, perfume10 };
 
-        String perfumes[] = {
-            "Axe", "Fogg", "Park Avenue", "Wild Stone", "Denver",
-            "Skinn", "Engage", "Layer'r Shot", "Bella Vita", "Beardo"
-        };
+   // static String grocery1 = "Rice";
+   // static String grocery2 = "Wheat";
+   // static String grocery3 = "Sugar";
+   // static String grocery4 = "Salt";
+   // static String grocery5 = "Dal";
+   // static String grocery6 = "Oil";
+   // static String grocery7 = "Ragi";
+   // static String grocery8 = "Atta";
+   // static String grocery9 = "Besan";
+   // static String grocery10 = "Poha";
+   // static String groceries[] = { grocery1, grocery2, grocery3, grocery4, grocery5, grocery6, grocery7, grocery8, grocery9, grocery10 };
 
-        String groceries[] = {
-            "Rice", "Wheat", "Sugar", "Salt", "Dal",
-            "Oil", "Ragi", "Atta", "Besan", "Poha"
-        };
+   // static String cosmetic1 = "Lipstick";
+   // static String cosmetic2 = "Eyeliner";
+   // static String cosmetic3 = "Foundation";
+   // static String cosmetic4 = "Compact";
+   // static String cosmetic5 = "Face Wash";
+   // static String cosmetic6 = "Shampoo";
+   // static String cosmetic7 = "Conditioner";
+   // static String cosmetic8 = "Body Lotion";
+   // static String cosmetic9 = "Perfume";
+   // static String cosmetic10 = "Face Cream";
+   // static String cosmetics[] = { cosmetic1, cosmetic2, cosmetic3, cosmetic4, cosmetic5, cosmetic6, cosmetic7, cosmetic8, cosmetic9, cosmetic10 };
 
-        String cosmetics[] = {
-            "Lipstick", "Eyeliner", "Foundation", "Compact", "Face Wash",
-            "Shampoo", "Conditioner", "Body Lotion", "Perfume", "Face Cream"
-        };
+   public static void main(String market[]) {
 
-        System.out.println(iceCreams[0]);
-        System.out.println(iceCreams[1]);
-        System.out.println(iceCreams[2]);
-        System.out.println(iceCreams[3]);
-        System.out.println(iceCreams[4]);
-        System.out.println(iceCreams[5]);
-        System.out.println(iceCreams[6]);
-        System.out.println(iceCreams[7]);
-        System.out.println(iceCreams[8]);
-        System.out.println(iceCreams[9]);
 
-        System.out.println(perfumes[0]);
-        System.out.println(perfumes[1]);
-        System.out.println(perfumes[2]);
-        System.out.println(perfumes[3]);
-        System.out.println(perfumes[4]);
-        System.out.println(perfumes[5]);
-        System.out.println(perfumes[6]);
-        System.out.println(perfumes[7]);
-        System.out.println(perfumes[8]);
-        System.out.println(perfumes[9]);
+    String ice1 = "Vanilla";
+    String ice2 = "Chocolate";
+    String ice3 = "Strawberry";
+    String ice4 = "Mango";
+    String ice5 = "Butterscotch";
+    String ice6 = "Black Currant";
+    String ice7 = "Pista";
+    String ice8 = "Kulfi";
+    String ice9 = "Choco Chips";
+    String ice10 = "Blueberry";
+    String iceCreams[] = { ice1, ice2, ice3, ice4, ice5, ice6, ice7, ice8, ice9, ice10 };
+   
+    String perfume1 = "Axe";
+    String perfume2 = "Fogg";
+    String perfume3 = "Park Avenue";
+    String perfume4 = "Wild Stone";
+    String perfume5 = "Denver";
+    String perfume6 = "Skinn";
+    String perfume7 = "Engage";
+    String perfume8 = "Layer'r Shot";
+    String perfume9 = "Bella Vita";
+    String perfume10 = "Beardo";
+    String perfumes[] = { perfume1, perfume2, perfume3, perfume4, perfume5, perfume6, perfume7, perfume8, perfume9, perfume10 };
+   
+    String grocery1 = "Rice";
+    String grocery2 = "Wheat";
+    String grocery3 = "Sugar";
+    String grocery4 = "Salt";
+    String grocery5 = "Dal";
+    String grocery6 = "Oil";
+    String grocery7 = "Ragi";
+    String grocery8 = "Atta";
+    String grocery9 = "Besan";
+    String grocery10 = "Poha";
+    String groceries[] = { grocery1, grocery2, grocery3, grocery4, grocery5, grocery6, grocery7, grocery8, grocery9, grocery10 };
+   
+    String cosmetic1 = "Lipstick";
+    String cosmetic2 = "Eyeliner";
+    String cosmetic3 = "Foundation";
+    String cosmetic4 = "Compact";
+    String cosmetic5 = "Face Wash";
+    String cosmetic6 = "Shampoo";
+    String cosmetic7 = "Conditioner";
+    String cosmetic8 = "Body Lotion";
+    String cosmetic9 = "Perfume";
+    String cosmetic10 = "Face Cream";
+    String cosmetics[] = { cosmetic1, cosmetic2, cosmetic3, cosmetic4, cosmetic5, cosmetic6, cosmetic7, cosmetic8, cosmetic9, cosmetic10 };
+   
 
-        System.out.println(groceries[0]);
-        System.out.println(groceries[1]);
-        System.out.println(groceries[2]);
-        System.out.println(groceries[3]);
-        System.out.println(groceries[4]);
-        System.out.println(groceries[5]);
-        System.out.println(groceries[6]);
-        System.out.println(groceries[7]);
-        System.out.println(groceries[8]);
-        System.out.println(groceries[9]);
+      for (String item : iceCreams) {
+         System.out.println(item);
+      }
 
-        System.out.println(cosmetics[0]);
-        System.out.println(cosmetics[1]);
-        System.out.println(cosmetics[2]);
-        System.out.println(cosmetics[3]);
-        System.out.println(cosmetics[4]);
-        System.out.println(cosmetics[5]);
-        System.out.println(cosmetics[6]);
-        System.out.println(cosmetics[7]);
-        System.out.println(cosmetics[8]);
-        System.out.println(cosmetics[9]);
+      for (String item : perfumes) {
+         System.out.println(item);
+      }
 
-        
-        for (String item : iceCreams) {
-            System.out.println(item);
-        }
+      for (String item : groceries) {
+         System.out.println(item);
+      }
 
-        for (String item : perfumes) {
-            System.out.println(item);
-        }
+      for (String item : cosmetics) {
+         System.out.println(item);
+      }
 
-        for (String item : groceries) {
-            System.out.println(item);
-        }
-
-        for (String item : cosmetics) {
-            System.out.println(item);
-        }
-    }
+   }
 }

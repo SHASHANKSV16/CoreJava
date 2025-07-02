@@ -1,23 +1,33 @@
 class ChatShop {
-    public static void main(String shop[]) {
+   // static String chat1 = "Pani Puri";
+   // static String chat2 = "Bhel Puri";
+   // static String chat3 = "Sev Puri";
+   // static String chat4 = "Dahi Puri";
+   // static String chat5 = "Chips Bhel";
+   // static String chat6 = "Aloo Tikki";
+   // static String chat7 = "Papdi Chat";
+   // static String chat8 = "Samosa Chaat";
+   // static String chat9 = "Kachori chat";
+   // static String chat10 = "Masala Puri";
+   // static String chats[] = { chat1, chat2, chat3, chat4, chat5, chat6, chat7, chat8, chat9, chat10 };
 
-        String chats[] = { "Pani Puri", "Bhel Puri", "Sev Puri", "Dahi Puri",
-		"Chips Bhel", "Aloo Tikki", "Papdi Chat", "Samosa Chaat", 
-		"Kachori chat", "Masala Puri" };
+   public static void main(String shop[]) {
 
-        System.out.println(chats[0]);
-        System.out.println(chats[1]);
-        System.out.println(chats[2]);
-        System.out.println(chats[3]);
-        System.out.println(chats[4]);
-        System.out.println(chats[5]);
-        System.out.println(chats[6]);
-        System.out.println(chats[7]);
-        System.out.println(chats[8]);
-        System.out.println(chats[9]);
+      String chat1 = "Pani Puri";
+      String chat2 = "Bhel Puri";
+      String chat3 = "Sev Puri";
+      String chat4 = "Dahi Puri";
+      String chat5 = "Chips Bhel";
+      String chat6 = "Aloo Tikki";
+      String chat7 = "Papdi Chat";
+      String chat8 = "Samosa Chaat";
+      String chat9 = "Kachori chat";
+      String chat10 = "Masala Puri";
+      String chats[] = { chat1, chat2, chat3, chat4, chat5, chat6, chat7, chat8, chat9, chat10 };
 
-        for (String chat : chats) {
-            System.out.println(chat);
-        }
-    }
+      for (String chat : chats) {
+         System.out.println(chat);
+      }
+
+   }
 }

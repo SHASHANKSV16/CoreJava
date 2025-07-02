@@ -1,23 +1,33 @@
 class Hospital {
-    public static void main(String specialization[]) {
+   // static String doctor1 = "Cardiologist";
+   // static String doctor2 = "Neurologist";
+   // static String doctor3 = "Dermatologist";
+   // static String doctor4 = "Orthopedic Surgeon";
+   // static String doctor5 = "ENT Specialist";
+   // static String doctor6 = "Pediatrician";
+   // static String doctor7 = "Oncologist";
+   // static String doctor8 = "Psychiatrist";
+   // static String doctor9 = "Ophthalmologist";
+   // static String doctor10 = "General Physician";
+   // static String doctorNames[] = { doctor1, doctor2, doctor3, doctor4, doctor5, doctor6, doctor7, doctor8, doctor9, doctor10 };
 
-        String doctorNames[] = { "Cardiologist", "Neurologist", "Dermatologist",
-		"Orthopedic Surgeon", "ENT Specialist", "Pediatrician", "Oncologist", 
-		"Psychiatrist", "Ophthalmologist", "General Physician" };
+   public static void main(String specialization[]) {
 
-        System.out.println(doctorNames[0]);
-        System.out.println(doctorNames[1]);
-        System.out.println(doctorNames[2]);
-        System.out.println(doctorNames[3]);
-        System.out.println(doctorNames[4]);
-        System.out.println(doctorNames[5]);
-        System.out.println(doctorNames[6]);
-        System.out.println(doctorNames[7]);
-        System.out.println(doctorNames[8]);
-        System.out.println(doctorNames[9]);
+      String doctor1 = "Cardiologist";
+      String doctor2 = "Neurologist";
+      String doctor3 = "Dermatologist";
+      String doctor4 = "Orthopedic Surgeon";
+      String doctor5 = "ENT Specialist";
+      String doctor6 = "Pediatrician";
+      String doctor7 = "Oncologist";
+      String doctor8 = "Psychiatrist";
+      String doctor9 = "Ophthalmologist";
+      String doctor10 = "General Physician";
+      String doctorNames[] = { doctor1, doctor2, doctor3, doctor4, doctor5, doctor6, doctor7, doctor8, doctor9, doctor10 };
 
-        for (String doctor : doctorNames) {
-            System.out.println(doctor);
-        }
-    }
+      for (String doctor : doctorNames) {
+         System.out.println(doctor);
+      }
+
+   }
 }

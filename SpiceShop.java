@@ -1,27 +1,41 @@
 class SpiceShop {
-    public static void main(String shop[]) {
+   // static String spice1 = "Turmeric";
+   // static String spice2 = "Chili Powder";
+   // static String spice3 = "Coriander";
+   // static String spice4 = "Cumin";
+   // static String spice5 = "Mustard Seeds";
+   // static String spice6 = "Fenugreek";
+   // static String spice7 = "Fennel";
+   // static String spice8 = "Black Pepper";
+   // static String spice9 = "Cloves";
+   // static String spice10 = "Cardamom";
+   // static String spice11 = "Cinnamon";
+   // static String spice12 = "Asafoetida";
+   // static String spice13 = "Nutmeg";
+   // static String spice14 = "Bay Leaf";
+   // static String spices[] = { spice1, spice2, spice3, spice4, spice5, spice6, spice7, spice8, spice9, spice10, spice11, spice12, spice13, spice14 };
 
-        String spices[] = { "Turmeric", "Chili Powder", "Coriander", "Cumin",
-		"Mustard Seeds", "Fenugreek", "Fennel", "Black Pepper", "Cloves", "Cardamom", 
-		"Cinnamon", "Asafoetida", "Nutmeg", "Bay Leaf" };
+   public static void main(String shop[]) {
 
-        System.out.println(spices[0]);
-        System.out.println(spices[1]);
-        System.out.println(spices[2]);
-        System.out.println(spices[3]);
-        System.out.println(spices[4]);
-        System.out.println(spices[5]);
-        System.out.println(spices[6]);
-        System.out.println(spices[7]);
-        System.out.println(spices[8]);
-        System.out.println(spices[9]);
-        System.out.println(spices[10]);
-        System.out.println(spices[11]);
-        System.out.println(spices[12]);
-        System.out.println(spices[13]);
+      String spice1 = "Turmeric";
+      String spice2 = "Chili Powder";
+      String spice3 = "Coriander";
+      String spice4 = "Cumin";
+      String spice5 = "Mustard Seeds";
+      String spice6 = "Fenugreek";
+      String spice7 = "Fennel";
+      String spice8 = "Black Pepper";
+      String spice9 = "Cloves";
+      String spice10 = "Cardamom";
+      String spice11 = "Cinnamon";
+      String spice12 = "Asafoetida";
+      String spice13 = "Nutmeg";
+      String spice14 = "Bay Leaf";
+      String spices[] = { spice1, spice2, spice3, spice4, spice5, spice6, spice7, spice8, spice9, spice10, spice11, spice12, spice13, spice14 };
 
-        for (String spice : spices) {
-            System.out.println(spice);
-        }
-    }
+      for (String spice : spices) {
+         System.out.println(spice);
+      }
+
+   }
 }

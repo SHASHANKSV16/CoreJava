@@ -1,23 +1,33 @@
 class IPLTeams {
-    public static void main(String cricket[]) {
+   // static String team1 = "Royal Challengers Bangalore";
+   // static String team2 = "Chennai Super Kings";
+   // static String team3 = "Mumbai Indians";
+   // static String team4 = "Kolkata Knight Riders";
+   // static String team5 = "Rajasthan Royals";
+   // static String team6 = "Sunrisers Hyderabad";
+   // static String team7 = "Delhi Capitals";
+   // static String team8 = "Lucknow Super Giants";
+   // static String team9 = "Gujarat Titans";
+   // static String team10 = "Punjab Kings";
+   // static String teamNames[] = { team1, team2, team3, team4, team5, team6, team7, team8, team9, team10 };
 
-        String teamNames[] = { "Royal Challengers Bangalore","Chennai Super Kings", "Mumbai Indians", 
-		"Kolkata Knight Riders", "Rajasthan Royals", "Sunrisers Hyderabad", 
-		"Delhi Capitals", "Lucknow Super Giants", "Gujarat Titans","Punjab Kings" };
+   public static void main(String cricket[]) {
 
-        System.out.println(teamNames[0]);
-        System.out.println(teamNames[1]);
-        System.out.println(teamNames[2]);
-        System.out.println(teamNames[3]);
-        System.out.println(teamNames[4]);
-        System.out.println(teamNames[5]);
-        System.out.println(teamNames[6]);
-        System.out.println(teamNames[7]);
-        System.out.println(teamNames[8]);
-        System.out.println(teamNames[9]);
+      String team1 = "Royal Challengers Bangalore";
+      String team2 = "Chennai Super Kings";
+      String team3 = "Mumbai Indians";
+      String team4 = "Kolkata Knight Riders";
+      String team5 = "Rajasthan Royals";
+      String team6 = "Sunrisers Hyderabad";
+      String team7 = "Delhi Capitals";
+      String team8 = "Lucknow Super Giants";
+      String team9 = "Gujarat Titans";
+      String team10 = "Punjab Kings";
+      String teamNames[] = { team1, team2, team3, team4, team5, team6, team7, team8, team9, team10 };
 
-        for (String team : teamNames) {
-            System.out.println(team);
-        }
-    }
+      for (String team : teamNames) {
+         System.out.println(team);
+      }
+
+   }
 }

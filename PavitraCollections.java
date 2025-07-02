@@ -1,22 +1,33 @@
 class PavitraCollections {
-    public static void main(String clothes[]) {
+   // static String brand1 = "Zara";
+   // static String brand2 = "H&M";
+   // static String brand3 = "Levi's";
+   // static String brand4 = "Allen Solly";
+   // static String brand5 = "Biba";
+   // static String brand6 = "FabIndia";
+   // static String brand7 = "Pantaloons";
+   // static String brand8 = "Max";
+   // static String brand9 = "Peter England";
+   // static String brand10 = "Van Heusen";
+   // static String brands[] = { brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8, brand9, brand10 };
 
-        String brands[] = { "Zara", "H&M", "Levi's", "Allen Solly", "Biba", "FabIndia",
-		"Pantaloons", "Max", "Peter England", "Van Heusen" };
+   public static void main(String clothes[]) {
 
-        System.out.println(brands[0]);
-        System.out.println(brands[1]);
-        System.out.println(brands[2]);
-        System.out.println(brands[3]);
-        System.out.println(brands[4]);
-        System.out.println(brands[5]);
-        System.out.println(brands[6]);
-        System.out.println(brands[7]);
-        System.out.println(brands[8]);
-        System.out.println(brands[9]);
+      String brand1 = "Zara";
+      String brand2 = "H&M";
+      String brand3 = "Levi's";
+      String brand4 = "Allen Solly";
+      String brand5 = "Biba";
+      String brand6 = "FabIndia";
+      String brand7 = "Pantaloons";
+      String brand8 = "Max";
+      String brand9 = "Peter England";
+      String brand10 = "Van Heusen";
+      String brands[] = { brand1, brand2, brand3, brand4, brand5, brand6, brand7, brand8, brand9, brand10 };
 
-        for (String brand : brands) {
-            System.out.println(brand);
-        }
-    }
+      for (String brand : brands) {
+         System.out.println(brand);
+      }
+
+   }
 }

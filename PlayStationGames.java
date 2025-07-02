@@ -1,23 +1,33 @@
 class PlayStationGames {
-    public static void main(String psgames[]) {
+   // static String game1 = "God of War";
+   // static String game2 = "Spider-Man";
+   // static String game3 = "The Last of Us";
+   // static String game4 = "Uncharted 4";
+   // static String game5 = "Ghost of Tsushima";
+   // static String game6 = "Horizon Zero Dawn";
+   // static String game7 = "Gran Turismo 7";
+   // static String game8 = "Bloodborne";
+   // static String game9 = "Ratchet & Clank";
+   // static String game10 = "Demon's Souls";
+   // static String games[] = { game1, game2, game3, game4, game5, game6, game7, game8, game9, game10 };
 
-        String games[] = { "God of War", "Spider-Man", "The Last of Us", "Uncharted 4",
-		"Ghost of Tsushima", "Horizon Zero Dawn", "Gran Turismo 7", "Bloodborne",
-		"Ratchet & Clank", "Demon's Souls" };
+   public static void main(String psgames[]) {
 
-        System.out.println(games[0]);
-        System.out.println(games[1]);
-        System.out.println(games[2]);
-        System.out.println(games[3]);
-        System.out.println(games[4]);
-        System.out.println(games[5]);
-        System.out.println(games[6]);
-        System.out.println(games[7]);
-        System.out.println(games[8]);
-        System.out.println(games[9]);
+      String game1 = "God of War";
+      String game2 = "Spider-Man";
+      String game3 = "The Last of Us";
+      String game4 = "Uncharted 4";
+      String game5 = "Ghost of Tsushima";
+      String game6 = "Horizon Zero Dawn";
+      String game7 = "Gran Turismo 7";
+      String game8 = "Bloodborne";
+      String game9 = "Ratchet & Clank";
+      String game10 = "Demon's Souls";
+      String games[] = { game1, game2, game3, game4, game5, game6, game7, game8, game9, game10 };
 
-        for (String game : games) {
-            System.out.println(game);
-        }
-    }
+      for (String game : games) {
+         System.out.println(game);
+      }
+
+   }
 }

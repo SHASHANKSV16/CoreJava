@@ -1,13 +1,17 @@
 class BangaloreAreas {
-    public static void main(String areas[]) {
+   // static String area1 = "Rajajinagar";
+   // static String area2 = "Nandini Layout";
+   // static String areaNames[] = { area1, area2 };
 
-        String areaNames[] = { "Rajajinagar", "Nandini Layout" };
+   public static void main(String areas[]) {
 
-        System.out.println(areaNames[0]);
-        System.out.println(areaNames[1]);
+      String area1 = "Rajajinagar";
+      String area2 = "Nandini Layout";
+      String areaNames[] = { area1, area2 };
 
-        for (String area : areaNames) {
-            System.out.println(area);
-        }
-    }
+      for (String area : areaNames) {
+         System.out.println(area);
+      }
+
+   }
 }
