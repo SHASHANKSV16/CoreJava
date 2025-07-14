@@ -1,5 +1,5 @@
 class AutomationAnywhereRunner {
-    public static void main(String[] args) {
+    public static void main(String[] aar) {
         boolean user = AutomationAnywhere.registrationUser(null,"Sharma","yogi@gmail.com",null,null,null );
         System.out.println("The user is registered: " + user);
         if(user)AutomationAnywhere.getDetails();
