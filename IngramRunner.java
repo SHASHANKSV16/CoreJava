@@ -1,5 +1,5 @@
 class IngramRunner {
-    public static void main(String[] argsgram) {
+    public static void main(String[] gram) {
 
         boolean user1 = Ingram.registerUser("Ravi", "Verma", 9876543210L,
                 "ravi.verma@gmail.com", "pass123", "pass123");
