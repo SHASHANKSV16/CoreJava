@@ -1,265 +1,63 @@
 class CoinRunner {
     public static void main(String[] money) {
-	
-        Coin firstCoin = new Coin();
-        firstCoin.coinId = 1;
-        firstCoin.material = "silver";
-        firstCoin.shape = "Round";
-        firstCoin.year = 1950;
-        firstCoin.value = 1.0;
-        System.out.println("the coin id is " + firstCoin.coinId);
-        System.out.println("the material is " + firstCoin.material);
-        System.out.println("the shape is " + firstCoin.shape);
-        System.out.println("the year is " + firstCoin.year);
-        System.out.println("the value is " + firstCoin.value);
-        System.out.println();
+        Coin firstCoin = new Coin(1, "silver", "Round", 1950, 1.0);
+        firstCoin.getData();
 
-        Coin secondCoin = new Coin();
-        secondCoin.coinId = 2;
-        secondCoin.material = "gold";
-        secondCoin.shape = "Hexagon";
-        secondCoin.year = 1965;
-        secondCoin.value = 10.0;
-        System.out.println("the coin id is " + secondCoin.coinId);
-        System.out.println("the material is " + secondCoin.material);
-        System.out.println("the shape is " + secondCoin.shape);
-        System.out.println("the year is " + secondCoin.year);
-        System.out.println("the value is " + secondCoin.value);
-        System.out.println();
+        Coin secondCoin = new Coin(2, "gold", "Hexagon", 1965, 10.0);
+        secondCoin.getData();
 
-        Coin thirdCoin = new Coin();
-        thirdCoin.coinId = 3;
-        thirdCoin.material = "copper";
-        thirdCoin.shape = "Round";
-        thirdCoin.year = 1980;
-        thirdCoin.value = 0.5;
-        System.out.println("the coin id is " + thirdCoin.coinId);
-        System.out.println("the material is " + thirdCoin.material);
-        System.out.println("the shape is " + thirdCoin.shape);
-        System.out.println("the year is " + thirdCoin.year);
-        System.out.println("the value is " + thirdCoin.value);
-        System.out.println();
+        Coin thirdCoin = new Coin(3, "copper", "Round", 1980, 0.5);
+        thirdCoin.getData();
 
-        Coin fourthCoin = new Coin();
-        fourthCoin.coinId = 4;
-        fourthCoin.material = "gold";
-        fourthCoin.shape = "Round";
-        fourthCoin.year = 2000;
-        fourthCoin.value = 25.0;
-        System.out.println("the coin id is " + fourthCoin.coinId);
-        System.out.println("the material is " + fourthCoin.material);
-        System.out.println("the shape is " + fourthCoin.shape);
-        System.out.println("the year is " + fourthCoin.year);
-        System.out.println("the value is " + fourthCoin.value);
-        System.out.println();
+        Coin fourthCoin = new Coin(4, "gold", "Round", 2000, 25.0);
+        fourthCoin.getData();
 
-        Coin fifthCoin = new Coin();
-        fifthCoin.coinId = 5;
-        fifthCoin.material = "silver";
-        fifthCoin.shape = "Hexagon";
-        fifthCoin.year = 1992;
-        fifthCoin.value = 5.0;
-        System.out.println("the coin id is " + fifthCoin.coinId);
-        System.out.println("the material is " + fifthCoin.material);
-        System.out.println("the shape is " + fifthCoin.shape);
-        System.out.println("the year is " + fifthCoin.year);
-        System.out.println("the value is " + fifthCoin.value);
-        System.out.println();
+        Coin fifthCoin = new Coin(5, "silver", "Hexagon", 1992, 5.0);
+        fifthCoin.getData();
 
-        Coin sixthCoin = new Coin();
-        sixthCoin.coinId = 6;
-        sixthCoin.material = "copper";
-        sixthCoin.shape = "Hexagon";
-        sixthCoin.year = 1975;
-        sixthCoin.value = 0.25;
-        System.out.println("the coin id is " + sixthCoin.coinId);
-        System.out.println("the material is " + sixthCoin.material);
-        System.out.println("the shape is " + sixthCoin.shape);
-        System.out.println("the year is " + sixthCoin.year);
-        System.out.println("the value is " + sixthCoin.value);
-        System.out.println();
+        Coin sixthCoin = new Coin(6, "copper", "Hexagon", 1975, 0.25);
+        sixthCoin.getData();
 
-        Coin seventhCoin = new Coin();
-        seventhCoin.coinId = 7;
-        seventhCoin.material = "silver";
-        seventhCoin.shape = "Round";
-        seventhCoin.year = 1999;
-        seventhCoin.value = 3.0;
-        System.out.println("the coin id is " + seventhCoin.coinId);
-        System.out.println("the material is " + seventhCoin.material);
-        System.out.println("the shape is " + seventhCoin.shape);
-        System.out.println("the year is " + seventhCoin.year);
-        System.out.println("the value is " + seventhCoin.value);
-        System.out.println();
+        Coin seventhCoin = new Coin(7, "silver", "Round", 1999, 3.0);
+        seventhCoin.getData();
 
-        Coin eighthCoin = new Coin();
-        eighthCoin.coinId = 8;
-        eighthCoin.material = "gold";
-        eighthCoin.shape = "Hexagon";
-        eighthCoin.year = 2010;
-        eighthCoin.value = 50.0;
-        System.out.println("the coin id is " + eighthCoin.coinId);
-        System.out.println("the material is " + eighthCoin.material);
-        System.out.println("the shape is " + eighthCoin.shape);
-        System.out.println("the year is " + eighthCoin.year);
-        System.out.println("the value is " + eighthCoin.value);
-        System.out.println();
+        Coin eighthCoin = new Coin(8, "gold", "Hexagon", 2010, 50.0);
+        eighthCoin.getData();
 
-        Coin ninthCoin = new Coin();
-        ninthCoin.coinId = 9;
-        ninthCoin.material = "copper";
-        ninthCoin.shape = "Round";
-        ninthCoin.year = 1988;
-        ninthCoin.value = 1.0;
-        System.out.println("the coin id is " + ninthCoin.coinId);
-        System.out.println("the material is " + ninthCoin.material);
-        System.out.println("the shape is " + ninthCoin.shape);
-        System.out.println("the year is " + ninthCoin.year);
-        System.out.println("the value is " + ninthCoin.value);
-        System.out.println();
+        Coin ninthCoin = new Coin(9, "copper", "Round", 1988, 1.0);
+        ninthCoin.getData();
 
-        Coin tenthCoin = new Coin();
-        tenthCoin.coinId = 10;
-        tenthCoin.material = "silver";
-        tenthCoin.shape = "Hexagon";
-        tenthCoin.year = 1947;
-        tenthCoin.value = 2.5;
-        System.out.println("the coin id is " + tenthCoin.coinId);
-        System.out.println("the material is " + tenthCoin.material);
-        System.out.println("the shape is " + tenthCoin.shape);
-        System.out.println("the year is " + tenthCoin.year);
-        System.out.println("the value is " + tenthCoin.value);
-        System.out.println();
-		
-		Coin eleventhCoin = new Coin();
-		eleventhCoin.coinId = 11;
-		eleventhCoin.material = "gold";
-		eleventhCoin.shape = "Round";
-		eleventhCoin.year = 1995;
-		eleventhCoin.value = 20.0;
-		System.out.println("the coin id is " + eleventhCoin.coinId);
-		System.out.println("the material is " + eleventhCoin.material);
-		System.out.println("the shape is " + eleventhCoin.shape);
-		System.out.println("the year is " + eleventhCoin.year);
-		System.out.println("the value is " + eleventhCoin.value);
-		System.out.println();
-		
-		Coin twelthCoin = new Coin();
-		twelthCoin.coinId = 12;
-		twelthCoin.material = "silver";
-		twelthCoin.shape = "Hexagon";
-		twelthCoin.year = 1970;
-		twelthCoin.value = 2.0;
-		System.out.println("the coin id is " + twelthCoin.coinId);
-		System.out.println("the material is " + twelthCoin.material);
-		System.out.println("the shape is " + twelthCoin.shape);
-		System.out.println("the year is " + twelthCoin.year);
-		System.out.println("the value is " + twelthCoin.value);
-		System.out.println();
-		
-		Coin thirteenthCoin = new Coin();
-		thirteenthCoin.coinId = 13;
-		thirteenthCoin.material = "copper";
-		thirteenthCoin.shape = "Round";
-		thirteenthCoin.year = 2005;
-		thirteenthCoin.value = 0.5;
-		System.out.println("the coin id is " + thirteenthCoin.coinId);
-		System.out.println("the material is " + thirteenthCoin.material);
-		System.out.println("the shape is " + thirteenthCoin.shape);
-		System.out.println("the year is " + thirteenthCoin.year);
-		System.out.println("the value is " + thirteenthCoin.value);
-		System.out.println();
-		
-		Coin fourteenthCoin = new Coin();
-		fourteenthCoin.coinId = 14;
-		fourteenthCoin.material = "gold";
-		fourteenthCoin.shape = "Hexagon";
-		fourteenthCoin.year = 1982;
-		fourteenthCoin.value = 15.0;
-		System.out.println("the coin id is " + fourteenthCoin.coinId);
-		System.out.println("the material is " + fourteenthCoin.material);
-		System.out.println("the shape is " + fourteenthCoin.shape);
-		System.out.println("the year is " + fourteenthCoin.year);
-		System.out.println("the value is " + fourteenthCoin.value);
-		System.out.println();
-		
-		Coin fifteenthCoin = new Coin();
-		fifteenthCoin.coinId = 15;
-		fifteenthCoin.material = "silver";
-		fifteenthCoin.shape = "Round";
-		fifteenthCoin.year = 1966;
-		fifteenthCoin.value = 5.0;
-		System.out.println("the coin id is " + fifteenthCoin.coinId);
-		System.out.println("the material is " + fifteenthCoin.material);
-		System.out.println("the shape is " + fifteenthCoin.shape);
-		System.out.println("the year is " + fifteenthCoin.year);
-		System.out.println("the value is " + fifteenthCoin.value);
-		System.out.println();
-		
-		Coin sixteenthCoin = new Coin();
-		sixteenthCoin.coinId = 16;
-		sixteenthCoin.material = "copper";
-		sixteenthCoin.shape = "Hexagon";
-		sixteenthCoin.year = 1990;
-		sixteenthCoin.value = 1.5;
-		System.out.println("the coin id is " + sixteenthCoin.coinId);
-		System.out.println("the material is " + sixteenthCoin.material);
-		System.out.println("the shape is " + sixteenthCoin.shape);
-		System.out.println("the year is " + sixteenthCoin.year);
-		System.out.println("the value is " + sixteenthCoin.value);
-		System.out.println();
-		
-		Coin seventeenthCoin = new Coin();
-		seventeenthCoin.coinId = 17;
-		seventeenthCoin.material = "silver";
-		seventeenthCoin.shape = "Hexagon";
-		seventeenthCoin.year = 2015;
-		seventeenthCoin.value = 8.0;
-		System.out.println("the coin id is " + seventeenthCoin.coinId);
-		System.out.println("the material is " + seventeenthCoin.material);
-		System.out.println("the shape is " + seventeenthCoin.shape);
-		System.out.println("the year is " + seventeenthCoin.year);
-		System.out.println("the value is " + seventeenthCoin.value);
-		System.out.println();
-		
-		Coin eighteenthCoin = new Coin();
-		eighteenthCoin.coinId = 18;
-		eighteenthCoin.material = "gold";
-		eighteenthCoin.shape = "Round";
-		eighteenthCoin.year = 2020;
-		eighteenthCoin.value = 100.0;
-		System.out.println("the coin id is " + eighteenthCoin.coinId);
-		System.out.println("the material is " + eighteenthCoin.material);
-		System.out.println("the shape is " + eighteenthCoin.shape);
-		System.out.println("the year is " + eighteenthCoin.year);
-		System.out.println("the value is " + eighteenthCoin.value);
-		System.out.println();
-		
-		Coin nineteenthCoin = new Coin();
-		nineteenthCoin.coinId = 19;
-		nineteenthCoin.material = "copper";
-		nineteenthCoin.shape = "Round";
-		nineteenthCoin.year = 1984;
-		nineteenthCoin.value = 0.25;
-		System.out.println("the coin id is " + nineteenthCoin.coinId);
-		System.out.println("the material is " + nineteenthCoin.material);
-		System.out.println("the shape is " + nineteenthCoin.shape);
-		System.out.println("the year is " + nineteenthCoin.year);
-		System.out.println("the value is " + nineteenthCoin.value);
-		System.out.println();
-		
-		Coin twentiethCoin = new Coin();
-		twentiethCoin.coinId = 20;
-		twentiethCoin.material = "silver";
-		twentiethCoin.shape = "Round";
-		twentiethCoin.year = 1955;
-		twentiethCoin.value = 2.0;
-		System.out.println("the coin id is " + twentiethCoin.coinId);
-		System.out.println("the material is " + twentiethCoin.material);
-		System.out.println("the shape is " + twentiethCoin.shape);
-		System.out.println("the year is " + twentiethCoin.year);
-		System.out.println("the value is " + twentiethCoin.value);
-		System.out.println();
-		
+        Coin tenthCoin = new Coin(10, "silver", "Hexagon", 1947, 2.5);
+        tenthCoin.getData();
+
+        Coin eleventhCoin = new Coin(11, "gold", "Round", 1995, 20.0);
+        eleventhCoin.getData();
+
+        Coin twelthCoin = new Coin(12, "silver", "Hexagon", 1970, 2.0);
+        twelthCoin.getData();
+
+        Coin thirteenthCoin = new Coin(13, "copper", "Round", 2005, 0.5);
+        thirteenthCoin.getData();
+
+        Coin fourteenthCoin = new Coin(14, "gold", "Hexagon", 1982, 15.0);
+        fourteenthCoin.getData();
+
+        Coin fifteenthCoin = new Coin(15, "silver", "Round", 1966, 5.0);
+        fifteenthCoin.getData();
+
+        Coin sixteenthCoin = new Coin(16, "copper", "Hexagon", 1990, 1.5);
+        sixteenthCoin.getData();
+
+        Coin seventeenthCoin = new Coin(17, "silver", "Hexagon", 2015, 8.0);
+        seventeenthCoin.getData();
+
+        Coin eighteenthCoin = new Coin(18, "gold", "Round", 2020, 100.0);
+        eighteenthCoin.getData();
+
+        Coin nineteenthCoin = new Coin(19, "copper", "Round", 1984, 0.25);
+        nineteenthCoin.getData();
+
+        Coin twentiethCoin = new Coin(20, "silver", "Round", 1955, 2.0);
+        twentiethCoin.getData();
     }
 }
