@@ -1,12 +1,13 @@
 class Politician {
+
     int politicianId;
     String name;
     int age;
-    String position;  
+    String position;
     String party;
-	
-	 Politician(int politicianId, String name, int age, String position, String party) {
-        System.out.println("Parameterized constructor");
+
+    Politician(int politicianId, String name, int age, String position, String party) {
+        
         this.politicianId = politicianId;
         this.name = name;
         this.age = age;
@@ -14,7 +15,18 @@ class Politician {
         this.party = party;
     }
 
- 
+    Politician(String name, int age) {
+        
+        this.name = name;
+        this.age = age;
+    }
+
+    Politician(String position, String party) {
+       
+        this.position = position;
+        this.party = party;
+    }
+
     public void getData() {
         System.out.println("the politician id is " + politicianId);
         System.out.println("the name is " + name);
@@ -23,5 +35,6 @@ class Politician {
         System.out.println("the party is " + party);
         System.out.println();
     }
-	
 }
+
+

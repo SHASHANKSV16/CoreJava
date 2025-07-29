@@ -1,29 +1,47 @@
 class GymEquipement {
+
     int equipmentId;
     String name;
     String type;
     String brand;
     double price;
-    double weight;
-	
-	GymEquipement(int equipmentId, String name, String type, String brand, double price, double weight) {
-        System.out.println("Parameterized constructor");
+    double weightsAvailable[];
+
+    GymEquipement() {
+    }
+
+    GymEquipement(int equipmentId, String name) {
+        this.equipmentId = equipmentId;
+        this.name = name;
+    }
+
+    GymEquipement(String brand, double price) {
+        this.brand = brand;
+        this.price = price;
+    }
+
+    GymEquipement(int equipmentId, String name, String type, String brand, double price, double weightsAvailable[]) {
+     
         this.equipmentId = equipmentId;
         this.name = name;
         this.type = type;
         this.brand = brand;
         this.price = price;
-        this.weight = weight;
+        this.weightsAvailable = weightsAvailable;
     }
 
     public void getData() {
-        System.out.println("the equipment id is " + equipmentId);
-        System.out.println("the name is " + name);
-        System.out.println("the type is " + type);
-        System.out.println("the brand is " + brand);
-        System.out.println("the price is " + price);
-        System.out.println("the weight is " + weight);
-        System.out.println();
+        System.out.println("The equipment id is " + equipmentId);
+        System.out.println("The name is " + name);
+        System.out.println("The type is " + type);
+        System.out.println("The brand is " + brand);
+        System.out.println("The price is " + price);
+
+        System.out.println("The weights available are  ");
+        if (weightsAvailable != null) {
+            for (double w : weightsAvailable) {
+                System.out.println(w);
+            }
+        }
     }
-	
 }

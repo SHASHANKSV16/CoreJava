@@ -1,14 +1,26 @@
 public class Roti {
-    
-	int rotiId;
+
+    int rotiId;
     String type;
     String size;
     double price;
     boolean isTandoori;
-	
+
+    Roti() {
+    }
+
+    Roti(int rotiId, String type) {
+        this.rotiId = rotiId;
+        this.type = type;
+    }
+
+    Roti(String size, double price) {
+        this.size = size;
+        this.price = price;
+    }
 
     Roti(int rotiId, String type, String size, double price, boolean isTandoori) {
-        System.out.println("Parameterized constructor");
+        
         this.rotiId = rotiId;
         this.type = type;
         this.size = size;
@@ -17,15 +29,11 @@ public class Roti {
     }
 
     public void getData() {
-        System.out.println("the roti id is " + rotiId);
-        System.out.println("the type is " + type);
-        System.out.println("the size is " + size);
-        System.out.println("the price is " + price);
-        System.out.println("is that tandoori roti " + isTandoori);
+        System.out.println("The roti id is " + rotiId);
+        System.out.println("The type is " + type);
+        System.out.println("The size is " + size);
+        System.out.println("The price is " + price);
+        System.out.println("Is that tandoori roti " + isTandoori);
         System.out.println();
     }
 }
-
-	
-	
-

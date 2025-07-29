@@ -1,11 +1,29 @@
 class CourtCase {
+
     int caseId;
     String caseTitle;
-    String status;     
+    String status;
     int yearFiled;
     String courtType;
 
- CourtCase(int caseId, String caseTitle, String status, int yearFiled, String courtType) {
+    CourtCase() {
+    }
+
+    CourtCase(int caseId, String caseTitle) {
+        this.caseId = caseId;
+        this.caseTitle = caseTitle;
+    }
+
+    CourtCase(String status, int yearFiled) {
+        this.status = status;
+        this.yearFiled = yearFiled;
+    }
+
+    CourtCase(String courtType) {
+        this.courtType = courtType;
+    }
+
+    CourtCase(int caseId, String caseTitle, String status, int yearFiled, String courtType) {
         System.out.println("Parameterized constructor");
         this.caseId = caseId;
         this.caseTitle = caseTitle;
@@ -14,7 +32,6 @@ class CourtCase {
         this.courtType = courtType;
     }
 
-    
     public void getData() {
         System.out.println("The case id is " + caseId);
         System.out.println("The case title is " + caseTitle);
@@ -24,5 +41,3 @@ class CourtCase {
         System.out.println();
     }
 }
-	
-

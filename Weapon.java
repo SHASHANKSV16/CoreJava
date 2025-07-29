@@ -1,12 +1,25 @@
 class Weapon {
     int weaponId;
-    String category; 
+    String category;
     String material;
     double weight;
     int price;
-	
-	Weapon(int weaponId, String category, String material, double weight, int price) {
-        System.out.println("Parameterized constructor");
+
+    Weapon() {
+    }
+
+    Weapon(int weaponId, String category) {
+        this.weaponId = weaponId;
+        this.category = category;
+    }
+
+    Weapon(String material, double weight) {
+        this.material = material;
+        this.weight = weight;
+    }
+
+    Weapon(int weaponId, String category, String material, double weight, int price) {
+      
         this.weaponId = weaponId;
         this.category = category;
         this.material = material;
@@ -22,5 +35,4 @@ class Weapon {
         System.out.println("The price is " + price);
         System.out.println();
     }
-	
 }
