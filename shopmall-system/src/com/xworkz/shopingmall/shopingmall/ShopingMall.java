@@ -4,7 +4,11 @@ import com.xworkz.shopingmall.shop.Shop;
 
 public class ShopingMall {
 
-    Shop[] shops = new Shop[13];
+    public ShopingMall(int size){
+        shops = new Shop[size];
+    }
+
+   public  Shop[] shops ;
     int index;
 
     public boolean addShop(Shop shop) {
@@ -24,6 +28,6 @@ public class ShopingMall {
         System.out.println("the type of the shop is  "+shop.getShopType());
         System.out.println("the flor of the shop is   "+shop.getWhichFloor());
         System.out.println("the address off the shop is  "+shop.getAddress());
-            System.out.println("---------------------------------------------");
+        System.out.println("--------------------------------------------------");
     }}
 }

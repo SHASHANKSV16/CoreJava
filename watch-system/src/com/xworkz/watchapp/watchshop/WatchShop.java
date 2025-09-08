@@ -4,7 +4,11 @@ import com.xworkz.watchapp.watch.Watch;
 
 public class WatchShop {
 
-    Watch[] watches = new Watch[9];
+    public WatchShop(int size){
+         watches = new Watch[size];
+    }
+
+   public  Watch[] watches ;
     int index;
 
     public boolean addWatch(Watch watch) {
@@ -22,10 +26,10 @@ public class WatchShop {
         for (Watch watch : watches) {
             System.out.println("the id of the watch is  " + watch.getId());
             System.out.println("the model of the watch is  " + watch.getModelName());
-            System.out.println("the company Name of the watch is  " + watch.getCompanyName());
+            System.out.println("the cName of the watch is  " + watch.getCompanyName());
             System.out.println("the price of the watch is  " + watch.getPrice());
-            System.out.println("the warranty of the watch is  " + watch.getWarranty());
-            System.out.println("------------------------");
+            System.out.println("the warrent of the watch is  " + watch.getWarrenty());
+            System.out.println("-----------------------------------------------");
 
         }
     }

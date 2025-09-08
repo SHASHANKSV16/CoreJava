@@ -4,17 +4,21 @@ import com.xworkz.theaterapp.movie.Movie;
 
 public class Theather {
 
+    public Theather(int size){
+        movies = new Movie[size];
+    }
 
-    Movie[] movies = new Movie[10];
+
+   public Movie[] movies = new Movie[10];
     int index;
 
-    public boolean addMovie(Movie movie) {
+    public boolean addmovie(Movie movie) {
         boolean isMovieAdded = false;
 
         if (movie != null) {
             movies[index++] = movie;
             isMovieAdded = true;
-        } else System.out.println("invalid trainee");
+        } else System.out.println("invalid moviee");
         return isMovieAdded;
     }
     public  void getmovieInfo(){

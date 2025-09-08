@@ -3,25 +3,40 @@ package com.xworkz.policeapp;
 import com.xworkz.policeapp.police.Police;
 import com.xworkz.policeapp.policestation.PoliceStation;
 
+import java.util.Scanner;
+
 public class PoliceStationRunner {
     public static void main(String[] args) {
-        Police police1=new Police(101,"Constable","Suresh",15000.00,5);
-        Police police2=new Police(102,"Head Constable","Ramesh",20000.00,7);
-        Police police3=new Police(103,"Sub-Inspector","Anita",30000.00,10);
-        Police police4=new Police(104,"Inspector","Prakash",40000.00,12);
-        Police police5=new Police(105,"Assistant Commissioner","Deepak",55000.00,15);
-        Police police6=new Police(106,"Commissioner","Lakshmi",75000.00,20);
 
 
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter no of police to be add :");
+        int size = scanner.nextInt();
 
+        PoliceStation policeStation = new PoliceStation(size);
+        System.out.println("Enter no of polices are available :"+policeStation.polices.length);
 
-        PoliceStation policeStation=new PoliceStation();
+        for (int index=0; index<size ; index++){
+            Police police = new Police();
 
-        if(policeStation.addPolice(police1)&&policeStation.addPolice(police2)&&policeStation.addPolice(police3)&&
-                policeStation.addPolice(police4)&&policeStation.addPolice(police5)&&policeStation.addPolice(police6)){
-            policeStation.getAllPoliceDetails();
+            System.out.println("Enter police Id :");
+            police.setPoliceId(scanner.nextInt());
+
+            System.out.println("Enter police name");
+            police.setName(scanner.next());
+
+            System.out.println("Enter type of post :");
+            police.setTypeOfPost(scanner.next());
+
+            System.out.println("Enter salary :");
+            police.setSalary(scanner.nextDouble());
+
+            System.out.println("Enter Experience");
+            police.setExperience(scanner.nextInt());
+
+            policeStation.addPolice(police);
         }
 
-
+        policeStation.getAllPoliceDetails();
     }
 }
