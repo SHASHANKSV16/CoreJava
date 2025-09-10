@@ -1,5 +1,6 @@
 package com.xworkz.policeapp;
 
+import com.xworkz.policeapp.constants.TypeOfPost;
 import com.xworkz.policeapp.police.Police;
 import com.xworkz.policeapp.policestation.PoliceStation;
 
@@ -25,8 +26,8 @@ public class PoliceStationRunner {
             System.out.println("Enter police name");
             police.setName(scanner.next());
 
-            System.out.println("Enter type of post :");
-            police.setTypeOfPost(scanner.next());
+            System.out.println("Enter type of post  from PI,API,SI,ASI,HC,SC,PC:");
+            police.setTypeOfPost(TypeOfPost.valueOf(scanner.next().toUpperCase()));
 
             System.out.println("Enter salary :");
             police.setSalary(scanner.nextDouble());
@@ -38,5 +39,96 @@ public class PoliceStationRunner {
         }
 
         policeStation.getAllPoliceDetails();
+
+
+        System.out.println("want to get Post by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            System.out.println("the Post is " + policeStation.getPostById(scanner.nextInt()));
+        }
+        System.out.println("want to get Name by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            System.out.println("the Name is " + policeStation.getNameById(scanner.nextInt()));
+        }
+        System.out.println("want to get Salary by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            System.out.println("the Salary is " + policeStation.getSalaryById(scanner.nextInt()));
+        }
+        System.out.println("want to get Experience by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            System.out.println("the Experience is " + policeStation.getExperienceById(scanner.nextInt()));
+        }
+        System.out.println("want to get Id by police Name : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Name");
+            System.out.println("the Id is " + policeStation.getIdByName(scanner.next()));
+        }
+        System.out.println("want to get Post by police Name : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Name");
+            System.out.println("the Post is " + policeStation.getPostByName(scanner.next()));
+        }
+        System.out.println("want to get Salary by police Name : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Name");
+            System.out.println("the Salary is " + policeStation.getSalaryByName(scanner.next()));
+        }
+        System.out.println("want to get Experience by police Name : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Name");
+            System.out.println("the Experience is " + policeStation.getExperienceByName(scanner.next()));
+        }
+
+
+
+        System.out.println("want to update Name by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            int id = scanner.nextInt();
+            System.out.println("enter new Name");
+            String newName = scanner.next();
+            if(policeStation.updateNameById(id, newName))
+                policeStation.getAllPoliceDetails();
+            else
+                System.out.println("Name not updated");
+        }
+        System.out.println("want to update Post by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            int id = scanner.nextInt();
+            System.out.println("enter new Post (e.g., SI, INSPECTOR, CONSTABLE, DSP, SP)");
+            TypeOfPost newPost = TypeOfPost.valueOf(scanner.next().toUpperCase());
+            if(policeStation.updatePostById(id, newPost))
+                policeStation.getAllPoliceDetails();
+            else
+                System.out.println("Post not updated");
+        }
+        System.out.println("want to update Salary by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            int id = scanner.nextInt();
+            System.out.println("enter new Salary");
+            double newSalary = scanner.nextDouble();
+            if(policeStation.updateSalaryById(id, newSalary))
+                policeStation.getAllPoliceDetails();
+            else
+                System.out.println("Salary not updated");
+        }
+        System.out.println("want to update Experience by police Id : yes / no");
+        if(scanner.next().equals("yes")){
+            System.out.println("enter police Id");
+            int id = scanner.nextInt();
+            System.out.println("enter new Experience (in years)");
+            int newExperience = scanner.nextInt();
+            if(policeStation.updateExperienceById(id, newExperience))
+                policeStation.getAllPoliceDetails();
+            else
+                System.out.println("Experience not updated");
+        }
+
+
     }
 }

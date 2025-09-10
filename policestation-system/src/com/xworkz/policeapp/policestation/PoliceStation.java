@@ -1,10 +1,13 @@
 package com.xworkz.policeapp.policestation;
 
+import com.xworkz.policeapp.constants.TypeOfPost;
 import com.xworkz.policeapp.police.Police;
 
-public class PoliceStation {
+public class PoliceStation  {
+
 
     public PoliceStation(int size){
+
         polices = new Police[size];
     }
    public  Police[] polices ;
@@ -35,4 +38,158 @@ public class PoliceStation {
         }
 
     }
+
+
+    public TypeOfPost getPostById(int id){
+       TypeOfPost typeOfPost = null;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    typeOfPost = police.getTypeOfPost();
+                }
+            }
+        } else System.out.println("enter valid ID");
+        if(typeOfPost == null) System.out.println("ID not found");
+        return typeOfPost;
+    }
+    public TypeOfPost getPostByName(String name){
+        TypeOfPost typeOfPost = null;
+        if(name != null){
+            for(Police police : polices){
+                if(police.getName().equalsIgnoreCase(name)){
+                    typeOfPost = police.getTypeOfPost();
+                }
+            }
+        } else System.out.println("enter valid name");
+        if(typeOfPost == null) System.out.println("Name not found");
+        return typeOfPost;
+    }
+    public String getNameById(int id){
+        String name = null;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    name = police.getName();
+                }
+            }
+        } else System.out.println("enter valid ID");
+        if(name == null) System.out.println("ID not found");
+        return name;
+    }
+    public int getIdByName(String name){
+        int id = 0;
+        if(name != null){
+            for(Police police : polices){
+                if(police.getName().equalsIgnoreCase(name)){
+                    id = police.getPoliceId();
+                }
+            }
+        } else System.out.println("enter valid name");
+        if(id == 0) System.out.println("Name not found");
+        return id;
+    }
+    public double getSalaryById(int id){
+        double salary = 0.0;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    salary = police.getSalary();
+                }
+            }
+        } else System.out.println("enter valid ID");
+        if(salary == 0.0) System.out.println("ID not found");
+        return salary;
+    }
+    public double getSalaryByName(String name){
+        double salary = 0.0;
+        if(name != null){
+            for(Police police : polices){
+                if(police.getName().equalsIgnoreCase(name)){
+                    salary = police.getSalary();
+                }
+            }
+        } else System.out.println("enter valid name");
+        if(salary == 0.0) System.out.println("Name not found");
+        return salary;
+    }
+    public int getExperienceById(int id){
+        int experience = 0;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    experience = police.getExperience();
+                }
+            }
+        } else System.out.println("enter valid ID");
+        if(experience == 0) System.out.println("ID not found");
+        return experience;
+    }
+    public int getExperienceByName(String name){
+        int experience = 0;
+        if(name != null){
+            for(Police police : polices){
+                if(police.getName().equalsIgnoreCase(name)){
+                    experience = police.getExperience();
+                }
+            }
+        } else System.out.println("enter valid name");
+        if(experience == 0) System.out.println("Name not found");
+        return experience;
+    }
+
+    public boolean updateNameById(int id, String newName){
+        boolean isUpdated = false;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    police.setName(newName);
+                    isUpdated = true;
+                }
+            }
+        } else System.out.println("enter valid ID");
+        return isUpdated;
+    }
+    public boolean updatePostById(int id, TypeOfPost newPost){
+        boolean isUpdated = false;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    police.setTypeOfPost(newPost);
+                    isUpdated = true;
+                }
+            }
+        } else System.out.println("enter valid ID");
+        return isUpdated;
+    }
+    public boolean updateSalaryById(int id, double newSalary){
+        boolean isUpdated = false;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    police.setSalary(newSalary);
+                    isUpdated = true;
+                }
+            }
+        } else System.out.println("enter valid ID");
+        return isUpdated;
+    }
+    public boolean updateExperienceById(int id, int newExperience){
+        boolean isUpdated = false;
+        if(id != 0){
+            for(Police police : polices){
+                if(police.getPoliceId() == id){
+                    police.setExperience(newExperience);
+                    isUpdated = true;
+                }
+            }
+        } else System.out.println("enter valid ID");
+        return isUpdated;
+    }
+
+
+
+
+
+
+
 }
