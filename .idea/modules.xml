@@ -2,16 +2,82 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/CRUD-OOPS.iml" filepath="$PROJECT_DIR$/.idea/CRUD-OOPS.iml" />
-      <module fileurl="file://$PROJECT_DIR$/amazon-system/amazon-system.iml" filepath="$PROJECT_DIR$/amazon-system/amazon-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/company-system/company-system.iml" filepath="$PROJECT_DIR$/company-system/company-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Os-system/Os-system.iml" filepath="$PROJECT_DIR$/Os-system/Os-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Play-station/Play-station.iml" filepath="$PROJECT_DIR$/Play-station/Play-station.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/abstraction.iml" filepath="$PROJECT_DIR$/.idea/abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/assignment-system/assignment-system.iml" filepath="$PROJECT_DIR$/assignment-system/assignment-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bank-system/bank-system.iml" filepath="$PROJECT_DIR$/bank-system/bank-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bell-system/bell-system.iml" filepath="$PROJECT_DIR$/bell-system/bell-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/blender-system/blender-system.iml" filepath="$PROJECT_DIR$/blender-system/blender-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/book-system/book-system.iml" filepath="$PROJECT_DIR$/book-system/book-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/camera-system/camera-system.iml" filepath="$PROJECT_DIR$/camera-system/camera-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case-system/case-system.iml" filepath="$PROJECT_DIR$/case-system/case-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cctv-system/cctv-system.iml" filepath="$PROJECT_DIR$/cctv-system/cctv-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chef/chef.iml" filepath="$PROJECT_DIR$/chef/chef.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cleaner-system/cleaner-system.iml" filepath="$PROJECT_DIR$/cleaner-system/cleaner-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-system/cloud-system.iml" filepath="$PROJECT_DIR$/cloud-system/cloud-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coffee-system/coffee-system.iml" filepath="$PROJECT_DIR$/coffee-system/coffee-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commercial-space/commercial-space.iml" filepath="$PROJECT_DIR$/commercial-space/commercial-space.iml" />
+      <module fileurl="file://$PROJECT_DIR$/counselor/counselor.iml" filepath="$PROJECT_DIR$/counselor/counselor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/credit-system/credit-system.iml" filepath="$PROJECT_DIR$/credit-system/credit-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/database-app/database-app.iml" filepath="$PROJECT_DIR$/database-app/database-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/director/director.iml" filepath="$PROJECT_DIR$/director/director.iml" />
+      <module fileurl="file://$PROJECT_DIR$/drone-system/drone-system.iml" filepath="$PROJECT_DIR$/drone-system/drone-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ecommerce/ecommerce.iml" filepath="$PROJECT_DIR$/ecommerce/ecommerce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/electric-bike-system/electric-bike-system.iml" filepath="$PROJECT_DIR$/electric-bike-system/electric-bike-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/email-system/email-system.iml" filepath="$PROJECT_DIR$/email-system/email-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/engineer/engineer.iml" filepath="$PROJECT_DIR$/engineer/engineer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/examination-system/examination-system.iml" filepath="$PROJECT_DIR$/examination-system/examination-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/extinguisher-system/extinguisher-system.iml" filepath="$PROJECT_DIR$/extinguisher-system/extinguisher-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fan-system/fan-system.iml" filepath="$PROJECT_DIR$/fan-system/fan-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/farmer/farmer.iml" filepath="$PROJECT_DIR$/farmer/farmer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hospital-system/hospital-system.iml" filepath="$PROJECT_DIR$/hospital-system/hospital-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/institute-system/institute-system.iml" filepath="$PROJECT_DIR$/institute-system/institute-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/judge/judge.iml" filepath="$PROJECT_DIR$/judge/judge.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kettle-system/kettle-system.iml" filepath="$PROJECT_DIR$/kettle-system/kettle-system.iml" />
       <module fileurl="file://$PROJECT_DIR$/library-system/library-system.iml" filepath="$PROJECT_DIR$/library-system/library-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/lokha-system/lokha-system.iml" filepath="$PROJECT_DIR$/lokha-system/lokha-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/policestation-system/policestation-system.iml" filepath="$PROJECT_DIR$/policestation-system/policestation-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shopmall-system/shopmall-system.iml" filepath="$PROJECT_DIR$/shopmall-system/shopmall-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/theater-system/theater-system.iml" filepath="$PROJECT_DIR$/theater-system/theater-system.iml" />
-      <module fileurl="file://$PROJECT_DIR$/watch-system/watch-system.iml" filepath="$PROJECT_DIR$/watch-system/watch-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/light-system/light-system.iml" filepath="$PROJECT_DIR$/light-system/light-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lock-system/lock-system.iml" filepath="$PROJECT_DIR$/lock-system/lock-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/magazine/magazine.iml" filepath="$PROJECT_DIR$/magazine/magazine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map-system/map-system.iml" filepath="$PROJECT_DIR$/map-system/map-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/medicalstore-system/medicalstore-system.iml" filepath="$PROJECT_DIR$/medicalstore-system/medicalstore-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-app/mobile-app.iml" filepath="$PROJECT_DIR$/mobile-app/mobile-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-system/mobile-system.iml" filepath="$PROJECT_DIR$/mobile-system/mobile-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/monitor/monitor.iml" filepath="$PROJECT_DIR$/monitor/monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mouse-system/mouse-system.iml" filepath="$PROJECT_DIR$/mouse-system/mouse-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/music-app/music-app.iml" filepath="$PROJECT_DIR$/music-app/music-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigation-app/navigation-app.iml" filepath="$PROJECT_DIR$/navigation-app/navigation-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/needle-system/needle-system.iml" filepath="$PROJECT_DIR$/needle-system/needle-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nurse-app/nurse-app.iml" filepath="$PROJECT_DIR$/nurse-app/nurse-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onlineclass-system/onlineclass-system.iml" filepath="$PROJECT_DIR$/onlineclass-system/onlineclass-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pass/pass.iml" filepath="$PROJECT_DIR$/pass/pass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pen-system/pen-system.iml" filepath="$PROJECT_DIR$/pen-system/pen-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/perfume-system/perfume-system.iml" filepath="$PROJECT_DIR$/perfume-system/perfume-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pilot/pilot.iml" filepath="$PROJECT_DIR$/pilot/pilot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/policeoffice/policeoffice.iml" filepath="$PROJECT_DIR$/policeoffice/policeoffice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prime-app/prime-app.iml" filepath="$PROJECT_DIR$/prime-app/prime-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projector-system/projector-system.iml" filepath="$PROJECT_DIR$/projector-system/projector-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/purifier-system/purifier-system.iml" filepath="$PROJECT_DIR$/purifier-system/purifier-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/refrigerator/refrigerator.iml" filepath="$PROJECT_DIR$/refrigerator/refrigerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/resort/resort.iml" filepath="$PROJECT_DIR$/resort/resort.iml" />
+      <module fileurl="file://$PROJECT_DIR$/restaurant/restaurant.iml" filepath="$PROJECT_DIR$/restaurant/restaurant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/road-system/road-system.iml" filepath="$PROJECT_DIR$/road-system/road-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shampoo-system/shampoo-system.iml" filepath="$PROJECT_DIR$/shampoo-system/shampoo-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/speaker-system/speaker-system.iml" filepath="$PROJECT_DIR$/speaker-system/speaker-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stadium-app/stadium-app.iml" filepath="$PROJECT_DIR$/stadium-app/stadium-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stocks-app/stocks-app.iml" filepath="$PROJECT_DIR$/stocks-app/stocks-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/subscription-system/subscription-system.iml" filepath="$PROJECT_DIR$/subscription-system/subscription-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/telivision/telivision.iml" filepath="$PROJECT_DIR$/telivision/telivision.iml" />
+      <module fileurl="file://$PROJECT_DIR$/temple-system/temple-system.iml" filepath="$PROJECT_DIR$/temple-system/temple-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thetre-app/thetre-app.iml" filepath="$PROJECT_DIR$/thetre-app/thetre-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tickets-app/tickets-app.iml" filepath="$PROJECT_DIR$/tickets-app/tickets-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tracker-system/tracker-system.iml" filepath="$PROJECT_DIR$/tracker-system/tracker-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/traintickets-app/traintickets-app.iml" filepath="$PROJECT_DIR$/traintickets-app/traintickets-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/upi-system/upi-system.iml" filepath="$PROJECT_DIR$/upi-system/upi-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wallet-system/wallet-system.iml" filepath="$PROJECT_DIR$/wallet-system/wallet-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web-app/web-app.iml" filepath="$PROJECT_DIR$/web-app/web-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webpage-system/webpage-system.iml" filepath="$PROJECT_DIR$/webpage-system/webpage-system.iml" />
     </modules>
   </component>
 </project>
